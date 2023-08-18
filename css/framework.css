@@ -11,6 +11,9 @@
 .d-flex {
     display: flex;
 }
+.f-wrap {
+    flex-wrap: wrap;
+}
 .align-center {
     align-items: center;
 }
@@ -63,29 +66,56 @@
 .mt-20 {
     margin-top: 20px;
 }
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
 .mb-20 {
     margin-bottom: 20px;
 }
 /* End Padding + Margin  */
 /* Start Color  */
-.bg-white {
-    background-color: white;
-}
-.bg-eee {
-    background-color: #eee;
-}
-.bg-blue {
-    background-color: var(--blue-color);
-}
 .c-black {
     color: black;
-}
-.c-white {
+  }
+  .c-white {
     color: white;
-}
-.c-grey {
+  }
+  .c-grey {
     color: var(--grey-color);
-}
+  }
+  .c-red {
+    color: var(--red-color);
+  }
+  .c-green {
+    color: var(--green-color);
+  }
+  .c-blue {
+    color: var(--blue-color);
+  }
+  .c-orange {
+    color: var(--orange-color);
+  }
+  .bg-red {
+    background-color: var(--red-color);
+  }
+  .bg-green {
+    background-color: var(--green-color);
+  }
+  .bg-blue {
+    background-color: var(--blue-color);
+  }
+  .bg-orange {
+    background-color: var(--orange-color);
+  }
+  .bg-white {        
+    background-color: white;
+  }
+  .bg-eee {
+    background-color: #eee;
+  }
 /* End Color  */
 /* Start Position  */
 .p-relative {
@@ -96,8 +126,20 @@
 .txt-c {
     text-align: center;
 }
+.fs-13 {
+    font-size: 13px;
+}
 .fs-14 {
     font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fw-bold {
+    font-weight: bold;
 }
 @media (max-width: 767px) {
     .txt-c-mobile {
@@ -115,6 +157,9 @@
 .border-1 {
     border: 1px solid #ccc;
 }
+.b-none {
+    border: none;
+}
 /* End Border */
 /* this was an idea to give this cls to any element we want it to disappear 
 @media (max-width: 767px) {
@@ -122,7 +167,6 @@
         display: none
     }
 } */
-/* Start Components */
 /* Start Width + Height */
 .w-full {
     width: 100%;
@@ -131,9 +175,19 @@
     width: fit-content;
 }
 /* End Width + Height */
+/* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .between-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
 }
 /* End Components */
